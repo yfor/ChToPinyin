@@ -1,0 +1,11 @@
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Release\re\value.txt
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Release\re\dic.ico
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Release\ChtoPinYin.exe.config
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Release\ChtoPinYin.exe
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\ChtoPinYin.csprojResolveAssemblyReference.cache
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\Window1.baml
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\Window1.g.cs
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\App.g.cs
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\ChtoPinYin_MarkupCompile.cache
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\ChtoPinYin.g.resources
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Release\ChtoPinYin.exe
