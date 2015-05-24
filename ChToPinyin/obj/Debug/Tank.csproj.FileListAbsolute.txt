@@ -1,0 +1,11 @@
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Debug\Tank.exe.config
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Debug\Tank.exe
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\bin\Debug\Tank.pdb
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Tank.csprojResolveAssemblyReference.cache
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Window1.baml
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Window1.g.cs
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\App.g.cs
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Tank_MarkupCompile.cache
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Tank.g.resources
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Tank.exe
+C:\Users\xiaoqiang\Documents\SharpDevelop Projects\learn\Tank\obj\Debug\Tank.pdb
