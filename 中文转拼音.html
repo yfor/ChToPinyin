@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<script src="eg.js">
+
+</script>
+<style type="text/css">
+a
+{
+float:right;
+width:7em;
+text-decoration:none;
+color:white;
+background-color:purple;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+}
+a:hover {background-color:#ff3300}
+</style>
+
+<script>
+function myFunction()
+{
+var f1=document.getElementById("f1");
+var f2=document.getElementById("f2");
+f2.value=CC2PYF(f1.value);
+}
+</script>
+</head>
+<body>
+<a href="中文转拼音.html">中文转拼音</a>
+<a href="tankindex.html">坦克游戏示例</a>
+<center>
+
+<h1>中文转拼音</h1>
+请输入要转换的中文<input type="text" id="f1"  onchange="myFunction()">
+<br><br><br>
+你得到的拼音<input type="text" id="f2"  >
+</center>
+
+</body>
+</html>
