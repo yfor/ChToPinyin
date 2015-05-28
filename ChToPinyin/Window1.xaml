@@ -8,6 +8,19 @@
 	Width="0"
 	Height="300"
 	MinWidth="300">
+	<Window.Background>
+		<LinearGradientBrush
+			EndPoint="1,0">
+			<LinearGradientBrush.GradientStops>
+				<GradientStop
+					Color="#FF3399FF"
+					Offset="0" />
+				<GradientStop
+					Color="#FFFFFFFF"
+					Offset="1" />
+			</LinearGradientBrush.GradientStops>
+		</LinearGradientBrush>
+	</Window.Background>
 	<Grid
 		RenderTransformOrigin="0.2633,0.5038"
 		Width="300">
@@ -41,7 +54,22 @@
 			HorizontalAlignment="Left"
 			VerticalAlignment="Bottom"
 			Margin="85,0,0,222"
-			Grid.ColumnSpan="3" />
+			Grid.ColumnSpan="3">
+			<TextBox.Background>
+				<LinearGradientBrush
+					StartPoint="0,0.5"
+					EndPoint="1,0.5">
+					<LinearGradientBrush.GradientStops>
+						<GradientStop
+							Color="#FF3399FF"
+							Offset="0.0053619302949061663" />
+						<GradientStop
+							Color="#FFBFCDDB"
+							Offset="0.99731903485254692" />
+					</LinearGradientBrush.GradientStops>
+				</LinearGradientBrush>
+			</TextBox.Background>
+		</TextBox>
 		<Label
 			RenderTransformOrigin="0.54,1.0333"
 			Width="50"
@@ -63,7 +91,22 @@
 			HorizontalAlignment="Left"
 			VerticalAlignment="Bottom"
 			Margin="85,0,0,68"
-			Grid.ColumnSpan="2" />
+			Grid.ColumnSpan="2">
+			<TextBox.Background>
+				<LinearGradientBrush
+					StartPoint="0,0.5"
+					EndPoint="1,0.5">
+					<LinearGradientBrush.GradientStops>
+						<GradientStop
+							Color="#FF3399FF"
+							Offset="0.0053619302949061663" />
+						<GradientStop
+							Color="#FFBFCDDB"
+							Offset="0.99731903485254692" />
+					</LinearGradientBrush.GradientStops>
+				</LinearGradientBrush>
+			</TextBox.Background>
+		</TextBox>
 		<Label
 			RenderTransformOrigin="0.54,1.0333"
 			Content="拼音"
@@ -81,11 +124,26 @@
 			Width="60"
 			Text="A"
 			Grid.Column="0"
-			Grid.ColumnSpan="2"
 			Grid.Row="0"
 			HorizontalAlignment="Left"
 			VerticalAlignment="Bottom"
-			Margin="85,0,0,28" />
+			Margin="85,0,0,28"
+			Grid.ColumnSpan="2">
+			<TextBox.Background>
+				<LinearGradientBrush
+					StartPoint="0,0.5"
+					EndPoint="1,0.5">
+					<LinearGradientBrush.GradientStops>
+						<GradientStop
+							Color="#FF3399FF"
+							Offset="0.0053619302949061663" />
+						<GradientStop
+							Color="#FFBFCDDB"
+							Offset="0.99731903485254692" />
+					</LinearGradientBrush.GradientStops>
+				</LinearGradientBrush>
+			</TextBox.Background>
+		</TextBox>
 		<CheckBox
 			RenderTransformOrigin="1.9615,0.5769"
 			x:Name="Sz"
@@ -106,10 +164,74 @@
 			VerticalAlignment="Bottom"
 			HorizontalAlignment="Left"
 			Grid.Row="0"
-			Grid.ColumnSpan="3"
 			Grid.Column="0"
 			FontSize="15"
-			TextWrapping="Wrap" />
+			TextWrapping="Wrap"
+			Background="#FF99B4D1"
+			Grid.ColumnSpan="3" />
+		<TextBox
+			FontSize="15"
+			TextWrapping="Wrap"
+			Background="#FF99B4D1"
+			Text=""
+			Width="52"
+			Height="108"
+			Grid.Column="1"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="129,0,0,106"
+			x:Name="MYT" />
+		<Ellipse
+			Fill="#00FFFFFF"
+			Stroke="#FF000000"
+			StrokeThickness="2"
+			x:Name="MYE"
+			RenderTransformOrigin="0.5,0.5"
+			Width="62"
+			Height="81"
+			Grid.Column="1"
+			Grid.Row="0"
+			HorizontalAlignment="Right"
+			VerticalAlignment="Bottom"
+			Margin="0,0,24,8" />
+		<Label
+			x:Name="MYL"
+			RenderTransformOrigin="0.54,1.0333"
+			Content="多音字"
+			Height="30"
+			Width="50"
+			Grid.Column="1"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="133,222.5,0,0" />
+		<Ellipse
+			Fill="#00FFFFFF"
+			Stroke="#FF000000"
+			StrokeThickness="2"
+			Width="33"
+			Height="33"
+			RenderTransformOrigin="0.4412,0.5909"
+			Grid.Column="1"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="116.5,0,0,80"
+			x:Name="c11" />
+		<Ellipse
+			Fill="#00FFFFFF"
+			Stroke="#FF000000"
+			StrokeThickness="2"
+			Width="33"
+			Height="33"
+			Grid.Column="1"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Bottom"
+			Margin="164.5,0,0,80.5"
+			x:Name="c12" />
+
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition
 				Width="0.289006274726255*" />
@@ -117,6 +239,4 @@
 				Width="0.711093750406817*" />
 		</Grid.ColumnDefinitions>
 	</Grid>
-
-
 </Window>

@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows;
 using System.Threading;
+using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 namespace ChtoPinYinDic
@@ -42,13 +43,18 @@ namespace ChtoPinYinDic
 		void ViewAddContorer()
 		{
 			
-			Pin.TextChanged += PinYinTextChanged;
+			c11.Visibility=Visibility.Hidden;
+			c12.Visibility=Visibility.Hidden;
+			MYE.Visibility=Visibility.Hidden;
+			MYT.Visibility=Visibility.Hidden;
+			MYL.Visibility=Visibility.Hidden;
+			Pin.TextChanged += delegate(object sender, TextChangedEventArgs e) {
+				TY.Text = c.PinYinChange(Pin.Text);
+			};
 	
 			Hanzi.TextChanged += HanziTextChanged;
 
-			Sz.Click += (object sender, RoutedEventArgs e) => {
-				PinYIn.Text = c.HanziChange(Hanzi.Text, Sz.IsChecked.Value);
-			};
+			Sz.Click += HanziTextChanged;
 		}
 		//其实故弄玄虚  以及载人过了   显得运行很快而已
 		void ShowLoading()
@@ -73,14 +79,29 @@ namespace ChtoPinYinDic
 		}
 
 		//控制器
-		void PinYinTextChanged(object sender, RoutedEventArgs e)
-		{
-			TY.Text = c.PinYinChange(Pin.Text);
-		}
+
 		void HanziTextChanged(object sender, RoutedEventArgs e)
 		{
 			
-			PinYIn.Text = c.HanziChange(Hanzi.Text, Sz.IsChecked.Value);
+			string HanziText=c.replaceYZtyz(Hanzi.Text.Trim(),Sz.IsChecked.Value);
+			string ty=c.isDYZ(HanziText);
+			if(ty.Length>0){
+				
+				MYE.Visibility=Visibility.Visible;
+				c11.Visibility=Visibility.Visible;
+				c12.Visibility=Visibility.Visible;
+				MYT.Visibility=Visibility.Visible;
+				MYL.Visibility=Visibility.Visible;
+				MYT.Text=ty;
+			}
+			else{
+				c11.Visibility=Visibility.Hidden;
+				c12.Visibility=Visibility.Hidden;
+				MYE.Visibility=Visibility.Hidden;
+				MYT.Visibility=Visibility.Hidden;
+				MYL.Visibility=Visibility.Hidden;
+			}
+			PinYIn.Text = c.HanziChange(HanziText, Sz.IsChecked.Value);
 		}
 		
 
