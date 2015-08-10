@@ -24,4 +24,5 @@ web版的其实是网上找来的(核心的js不是自己实现的)，但是可�
 
 
 [我的个人网站。](http://yfor.sinaapp.com/)，会尽可能更新。
+There is [wiki。](https://github.com/yfor/ChToPinyin/wiki) 
 
