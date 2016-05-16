@@ -24,6 +24,7 @@ web版的其实是网上找来的(核心的js不是自己实现的)，但是可�
 如果你有喜欢的平台，想移植到你喜欢的平台，我可以提供支持。
 
 
-[我的个人网站。](http://yfor.sinaapp.com/)，会尽可能更新。
-There is [wiki PAGE。](https://github.com/yfor/ChToPinyin/wiki) 
+1. [我的个人网站。](http://yfor.sinaapp.com/)，会尽可能更新。
+2. There is [wiki PAGE。](https://github.com/yfor/ChToPinyin/wiki) 
+3. [简书](http://www.jianshu.com/notebooks/2810350/latest)
 
