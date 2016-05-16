@@ -26,5 +26,5 @@ web版的其实是网上找来的(核心的js不是自己实现的)，但是可�
 
 1. [我的个人网站。](http://yfor.sinaapp.com/)，会尽可能更新。
 2. There is [wiki PAGE。](https://github.com/yfor/ChToPinyin/wiki) 
-3. [简书](http://www.jianshu.com/notebooks/2810350/latest)
+3. [简书](http://www.jianshu.com/users/239b78e02402/latest_articles)
 
